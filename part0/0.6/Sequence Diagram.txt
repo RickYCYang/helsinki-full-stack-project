@@ -1,0 +1,12 @@
+participant browser
+participant server
+
+note over browser:
+user writes something into the text field 
+and clicking the submit button.
+Then, spa.js push the new note to existed notes
+end note
+
+note left of server: header with content-type = application/json
+browser -> server: HTTP POST json to https://studies.cs.helsinki.fi/exampleapp/new_note
+server --> browser: Response 201 with body {"message":"note created"}
