@@ -1,0 +1,29 @@
+### get all persons
+GET http://localhost:3001/api/persons
+
+### get person by id
+GET http://localhost:3001/api/persons/62c86ace0b934dc476f16c1a
+
+### create a new person
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Ri",
+  "number": "1234-5678"
+}
+
+### Update a existed person
+PUT http://localhost:3001/api/persons/62c8ea0ea5fead51763879a2
+Content-Type: application/json
+
+{
+  "name": "Yang",
+  "number": "6789"
+}
+
+### delete person by id
+DELETE http://localhost:3001/api/persons/62c86a888e9ac903a836da8f
+
+### get info
+GET http://localhost:3001/info
