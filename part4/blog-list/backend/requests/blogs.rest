@@ -2,21 +2,24 @@
 GET http://localhost:3001/api/blogs
 
 ### get blog by id
-GET http://localhost:3001/api/blogs/62cd963b98531468eee611a4
+GET http://localhost:3001/api/blogs/62d4094c81d98be5ee5ac76b
 
 ### post a new blog
 POST http://localhost:3001/api/blogs
 Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFyaXMiLCJpZCI6IjYyZDU4N2IxOGQ0YmMwNjcxY2ZmODJjZiIsImlhdCI6MTY1ODE2MTgxNiwiZXhwIjoxNjU4MTY1NDE2fQ.ab3OjIXTKk-HuxxsY_q3NtFQQjKOezct93Xnlk5YmKc
 
 {
-  "title": "Hello World",
+  "title": "Hello Typescript",
   "author": "Rick",
   "url": "https://www.google.com",
-  "likes": 5
+  "likes": 10
 }
 
 ### delete a blog by id
-DELETE http://localhost:3001/api/blogs/62d179574320ca24f601602d
+DELETE http://localhost:3001/api/blogs/62d589103f05040b2625ab49
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFyaXMiLCJpZCI6IjYyZDU4N2IxOGQ0YmMwNjcxY2ZmODJjZiIsImlhdCI6MTY1ODE2MTgxNiwiZXhwIjoxNjU4MTY1NDE2fQ.ab3OjIXTKk-HuxxsY_q3NtFQQjKOezct93Xnlk5YmKc
+
 
 ### update a blog's likes by id
 PUT http://localhost:3001/api/blogs/62cd9ea26a31aff527f21880

@@ -1,9 +1,11 @@
 const _ = require('lodash');
 
+/** exercise 4.3 */
 const dummy = (blogs) => {
   return 1;
 };
 
+/** exercise 4.4 */
 const totalLikes = (blogs) => {
   const ttlLike = blogs.reduce((prevTotalLike, blog) => {
     return prevTotalLike + blog.likes;
@@ -11,6 +13,7 @@ const totalLikes = (blogs) => {
   return ttlLike;
 };
 
+/** exercise 4.5 */
 const favoriteBlog = (blogs) => {
   const maxLikeBlog = blogs.reduce((prevBlog, currBlog) => {
     if (currBlog.likes > (prevBlog.likes || Number.MIN_SAFE_INTEGER))
@@ -20,6 +23,7 @@ const favoriteBlog = (blogs) => {
   return maxLikeBlog;
 };
 
+/** exercise 4.6 */
 const mostBlogs = (blogs) => {
   const blogCntOfAuthors = _.countBy(blogs, 'author');
   const mostBlogAuthor = Object.entries(blogCntOfAuthors).reduce(
@@ -33,6 +37,7 @@ const mostBlogs = (blogs) => {
   return mostBlogAuthor;
 };
 
+/** exercise 4.7 */
 const mostLikes = (blogs) => {
   const blogOfAuthors = _.groupBy(blogs, 'author');
   const ttlLikesOfAuthors = Object.entries(blogOfAuthors).map(

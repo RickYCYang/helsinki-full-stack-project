@@ -62,6 +62,7 @@ const blogs = [
   },
 ];
 
+/** exercise 4.3 */
 test('dummy returns one', () => {
   const blogs = [];
 
@@ -69,6 +70,7 @@ test('dummy returns one', () => {
   expect(result).toBe(1);
 });
 
+/** exercise 4.4 */
 describe('total likes', () => {
   test('of empty list is zero', () => {
     const result = listHelper.totalLikes([]);
@@ -86,6 +88,7 @@ describe('total likes', () => {
   });
 });
 
+/** exercise 4.5 */
 describe('favorite blog', () => {
   test('of empty list is zero', () => {
     const result = listHelper.favoriteBlog([]);
@@ -103,6 +106,7 @@ describe('favorite blog', () => {
   });
 });
 
+/** exercise 4.6 */
 describe('most blog author', () => {
   test('of empty list is zero', () => {
     const result = listHelper.mostBlogs([]);
@@ -122,6 +126,7 @@ describe('most blog author', () => {
   });
 });
 
+/** exercise 4.7 */
 describe('most likes author', () => {
   test('of empty list is zero', () => {
     const result = listHelper.mostLikes([]);
