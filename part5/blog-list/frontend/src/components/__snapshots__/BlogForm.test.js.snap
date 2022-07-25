@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BlogForm /> updates parent state and calls onSubmit snapshot of html elements 1`] = `
+<div>
+  <div>
+    <h2>
+      create new
+    </h2>
+    <form>
+      <div>
+        title:
+        <input
+          id="title"
+          name="Title"
+          placeholder="write here blog title"
+          type="text"
+          value=""
+        />
+      </div>
+      <div>
+        author:
+        <input
+          id="author"
+          name="Author"
+          placeholder="write here blog author"
+          type="text"
+          value=""
+        />
+      </div>
+      <div>
+        url:
+        <input
+          id="url"
+          name="Url"
+          placeholder="write here blog url"
+          type="text"
+          value=""
+        />
+      </div>
+      <button
+        id="blog-post-button"
+        type="submit"
+      >
+        create
+      </button>
+    </form>
+  </div>
+</div>
+`;

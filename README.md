@@ -17,12 +17,16 @@ Open Full Stack Project from University Helsinki
     │     ├── phonebook
     │     └── countries
     │── part3
-    │     └──  phonebook
-    │             ├── frontend
-    │             └── backend    # production server link is in next section
-    └── part4
-          └──  blog-list
-                  └── backend
+    │     └── phonebook
+    │           ├── frontend
+    │           └── backend    # production server link is in next section
+    │── part4
+    │     └── blog-list
+    │           └── backend
+    └── part5
+          └── blog-list
+                ├── frontend
+                └── backend
 
 ### Deployment on server
 

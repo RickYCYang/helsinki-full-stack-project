@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for src/App.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../index.html">All files</a> / <a href="index.html">src</a> App.js
+    </h1>
+    <div class='clearfix'>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js"><span class="cstat-no" title="statement not covered" >import React, { useState, useEffect, useRef } from 'react';</span>
+<span class="cstat-no" title="statement not covered" >import Blog from './components/Blog';</span>
+<span class="cstat-no" title="statement not covered" >import Notification from './components/Notification';</span>
+<span class="cstat-no" title="statement not covered" >import Togglable from './components/Togglable';</span>
+<span class="cstat-no" title="statement not covered" >import BlogForm from './components/BlogForm';</span>
+<span class="cstat-no" title="statement not covered" >import LoginForm from './components/LoginForm';</span>
+<span class="cstat-no" title="statement not covered" >import blogService from './services/blogs';</span>
+<span class="cstat-no" title="statement not covered" >import loginService from './services/login';</span>
+&nbsp;
+const App = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >() =&gt; <span class="cstat-no" title="statement not covered" ></span>{</span></span>
+  const [notification, setNotification] = <span class="cstat-no" title="statement not covered" >useState({});</span>
+  const [user, setUser] = <span class="cstat-no" title="statement not covered" >useState(null);</span>
+  const [blogs, setBlogs] = <span class="cstat-no" title="statement not covered" >useState([]);</span>
+&nbsp;
+  const blogFormRef = <span class="cstat-no" title="statement not covered" >useRef();</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  useEffect(<span class="fstat-no" title="function not covered" >() =&gt; </span>{</span>
+<span class="cstat-no" title="statement not covered" >    blogService.getAll().then((<span class="fstat-no" title="function not covered" >blogs) =&gt; <span class="cstat-no" title="statement not covered" >setBlogs(blogs));</span></span></span>
+  }, []);
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  useEffect(<span class="fstat-no" title="function not covered" >() =&gt; </span>{</span>
+    const loggedUserJSON = <span class="cstat-no" title="statement not covered" >window.localStorage.getItem('loggedBlogappUser');</span>
+<span class="cstat-no" title="statement not covered" >    if (loggedUserJSON) {</span>
+      const user = <span class="cstat-no" title="statement not covered" >JSON.parse(loggedUserJSON);</span>
+<span class="cstat-no" title="statement not covered" >      setUser(user);</span>
+<span class="cstat-no" title="statement not covered" >      blogService.setToken(user.token);</span>
+    }
+  }, []);
+&nbsp;
+  const login = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >async (</span>userObject) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >    try {</span>
+      const user = <span class="cstat-no" title="statement not covered" >await loginService.login(userObject);</span>
+<span class="cstat-no" title="statement not covered" >      window.localStorage.setItem('loggedBlogappUser', JSON.stringify(user));</span>
+<span class="cstat-no" title="statement not covered" >      blogService.setToken(user.token);</span>
+<span class="cstat-no" title="statement not covered" >      setUser(user);</span>
+    } catch (exception) {
+<span class="cstat-no" title="statement not covered" >      setNotification({ message: 'Wrong username or password', error: true });</span>
+<span class="cstat-no" title="statement not covered" >      setTimeout(<span class="fstat-no" title="function not covered" >() =&gt; </span>{</span>
+<span class="cstat-no" title="statement not covered" >        setNotification({});</span>
+      }, 5000);
+    }
+  };
+&nbsp;
+  const logout = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >() =&gt; </span>{</span>
+<span class="cstat-no" title="statement not covered" >    window.localStorage.removeItem('loggedBlogappUser');</span>
+<span class="cstat-no" title="statement not covered" >    setUser(null);</span>
+  };
+&nbsp;
+  const addBlog = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >async (</span>blogObject) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >    try {</span>
+<span class="cstat-no" title="statement not covered" >      blogFormRef.current.toggleVisibility();</span>
+      const newBlog = <span class="cstat-no" title="statement not covered" >await blogService.create(blogObject);</span>
+<span class="cstat-no" title="statement not covered" >      setBlogs([...blogs, newBlog]);</span>
+<span class="cstat-no" title="statement not covered" >      setNotification({</span>
+        message: `a new blog ${newBlog.title} by ${newBlog.author} added`,
+      });
+    } catch (exception) {
+<span class="cstat-no" title="statement not covered" >      setNotification({ message: 'Something wrong', error: true });</span>
+    } finally {
+<span class="cstat-no" title="statement not covered" >      setTimeout(<span class="fstat-no" title="function not covered" >() =&gt; </span>{</span>
+<span class="cstat-no" title="statement not covered" >        setNotification({});</span>
+      }, 5000);
+    }
+  };
+&nbsp;
+  const updateBlog = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >async (</span>blog) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >    try {</span>
+      const updatedBlog = <span class="cstat-no" title="statement not covered" >await blogService.update(blog.id, {</span>
+        author: blog.author,
+        likes: blog.likes + 1,
+        title: blog.title,
+        url: blog.url,
+        user: blog.user.id,
+      });
+      const updatedBlogs = <span class="cstat-no" title="statement not covered" >blogs.map((<span class="fstat-no" title="function not covered" >blog) =&gt; {</span></span>
+<span class="cstat-no" title="statement not covered" >        if (blog.id === updatedBlog.id) <span class="cstat-no" title="statement not covered" >r</span>eturn updatedBlog;</span>
+<span class="cstat-no" title="statement not covered" >        return blog;</span>
+      });
+<span class="cstat-no" title="statement not covered" >      setBlogs(updatedBlogs);</span>
+<span class="cstat-no" title="statement not covered" >      setNotification({</span>
+        message: `increased likes of blog ${updatedBlog.title} by ${updatedBlog.author}`,
+      });
+    } catch (error) {
+<span class="cstat-no" title="statement not covered" >      setNotification({ message: 'Something wrong', error: true });</span>
+    } finally {
+<span class="cstat-no" title="statement not covered" >      setTimeout(<span class="fstat-no" title="function not covered" >() =&gt; </span>{</span>
+<span class="cstat-no" title="statement not covered" >        setNotification({});</span>
+      }, 5000);
+    }
+  };
+&nbsp;
+  const removeBlog = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >async (</span>blog) =&gt; {</span>
+    const confirm = <span class="cstat-no" title="statement not covered" >window.confirm(</span>
+      `Remove blog ${blog.title} by ${blog.author}`
+    );
+<span class="cstat-no" title="statement not covered" >    if (!confirm) <span class="cstat-no" title="statement not covered" >r</span>eturn;</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    try {</span>
+<span class="cstat-no" title="statement not covered" >      await blogService.remove(blog.id);</span>
+      const updatedBlogs = <span class="cstat-no" title="statement not covered" >blogs.filter((<span class="fstat-no" title="function not covered" >oldBlog) =&gt; <span class="cstat-no" title="statement not covered" >oldBlog.id !== blog.id);</span></span></span>
+<span class="cstat-no" title="statement not covered" >      setBlogs(updatedBlogs);</span>
+<span class="cstat-no" title="statement not covered" >      setNotification({</span>
+        message: `remove blog ${blog.title} by ${blog.author}`,
+      });
+    } catch (err) {
+<span class="cstat-no" title="statement not covered" >      setNotification({ message: 'Something wrong', error: true });</span>
+    } finally {
+<span class="cstat-no" title="statement not covered" >      setTimeout(<span class="fstat-no" title="function not covered" >() =&gt; </span>{</span>
+<span class="cstat-no" title="statement not covered" >        setNotification({});</span>
+      }, 5000);
+    }
+  };
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  if (user === null) {</span>
+<span class="cstat-no" title="statement not covered" >    return (</span>
+      &lt;div&gt;
+        &lt;h2&gt;log in to application&lt;/h2&gt;
+        &lt;Notification
+          message={notification.message}
+          error={notification.error}
+        /&gt;
+        &lt;LoginForm login={login} logout={logout} /&gt;
+      &lt;/div&gt;
+    );
+  }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  return (</span>
+    &lt;div&gt;
+      &lt;h2&gt;blogs&lt;/h2&gt;
+      &lt;Notification message={notification.message} error={notification.error} /&gt;
+      &lt;p&gt;
+        {user.username} logged in &lt;button onClick={logout}&gt;logout&lt;/button&gt;
+      &lt;/p&gt;
+      &lt;Togglable buttonLabel="new blog" ref={blogFormRef}&gt;
+        &lt;BlogForm createBlog={addBlog} /&gt;
+      &lt;/Togglable&gt;
+      &lt;ul style={{ listStyleType: 'none', paddingLeft: '0px' }}&gt;
+        {blogs
+          .sort(<span class="fstat-no" title="function not covered" >(a</span>, b) =&gt; <span class="cstat-no" title="statement not covered" >b.likes - a.likes)</span>
+          .map((<span class="fstat-no" title="function not covered" >blog) =&gt; (</span>
+<span class="cstat-no" title="statement not covered" >            &lt;Blog</span>
+              key={blog.id}
+              blog={blog}
+              updateBlog={updateBlog}
+              removeBlog={removeBlog}
+              user={user}
+            /&gt;
+          ))}
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  );
+};
+&nbsp;
+export default App;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sun Jul 24 2022 18:37:21 GMT+0800 (台北標準時間)
+</div>
+</div>
+<script src="../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../sorter.js"></script>
+</body>
+</html>

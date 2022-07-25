@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Togglable /> snapshot of html elements 1`] = `
+<div>
+  <div>
+    <div>
+      <button>
+        show...
+      </button>
+    </div>
+    <div
+      class="togglableContent"
+      style="display: none;"
+    >
+      <div
+        class="testDiv"
+      >
+        togglable content
+      </div>
+      <button>
+        cancel
+      </button>
+    </div>
+  </div>
+</div>
+`;
