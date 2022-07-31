@@ -23,11 +23,25 @@ Open Full Stack Project from University Helsinki
     │── part4
     │     └── blog-list
     │           └── backend
-    └── part5
+    │── part5
+    │     └── blog-list
+    │           ├── frontend
+    │           └── backend
+    └── part6
           └── blog-list
-                ├── frontend
-                └── backend
+                ├── redux-anecdotes
+                └── unicafe
 
 ### Deployment on server
 
 - part3: [phonebook/backend](https://helsinki-part3-phonebook.herokuapp.com/). It also contains the production build of frontend
+
+### Learning Targets
+
+- Part0: Fundamentals of Web apps
+- Part1: Introduction to React
+- Part2: Communicating with server
+- Part3: Programming a server with NodeJS and Express
+- Part4: Testing Express servers, user administration
+- Part5: Testing React apps
+- Part6: State management with Redux

@@ -1,0 +1,21 @@
+### get all anecdotes
+GET http://localhost:3001/anecdotes
+
+
+### post new anecdotes
+POST http://localhost:3001/anecdotes
+Content-Type: application/json
+
+{
+  "content": "hello world",
+  "id": "1",
+  "votes": 0
+}
+
+### update a anecdotes's votes by id
+PATCH http://localhost:3001/anecdotes/1
+Content-Type: application/json
+
+{
+  "votes": 10
+}
