@@ -27,10 +27,18 @@ Open Full Stack Project from University Helsinki
     │     └── blog-list
     │           ├── frontend
     │           └── backend
-    └── part6
-          └── blog-list
-                ├── redux-anecdotes
-                └── unicafe
+    │── part6
+    │     └── blog-list
+    │           ├── redux-anecdotes
+    │           └── unicafe
+    └── part7
+          ├── blog-list
+          │     ├── backend
+          │     └── frontend
+          ├── country-hook
+          ├── routed-anecdotes
+          ├── ultimate-hooks
+          └── webpack
 
 ### Deployment on server
 
