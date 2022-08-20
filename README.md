@@ -31,14 +31,21 @@ Open Full Stack Project from University Helsinki
     │     └── blog-list
     │           ├── redux-anecdotes
     │           └── unicafe
-    └── part7
-          ├── blog-list
+    │── part7
+    │     ├── blog-list
+    │     │     ├── backend
+    │     │     └── frontend
+    │     ├── country-hook
+    │     ├── routed-anecdotes
+    │     ├── ultimate-hooks
+    │     └── webpack
+    └── part8
+          ├── library
           │     ├── backend
           │     └── frontend
-          ├── country-hook
-          ├── routed-anecdotes
-          ├── ultimate-hooks
-          └── webpack
+          └── practice
+                ├── backend
+                └── frontend
 
 ### Deployment on server
 
@@ -53,3 +60,5 @@ Open Full Stack Project from University Helsinki
 - Part4: Testing Express servers, user administration
 - Part5: Testing React apps
 - Part6: State management with Redux
+- part7: React router, custom hooks, styling app with CSS and webpack
+- part8: GraphQL
