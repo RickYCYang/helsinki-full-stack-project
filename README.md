@@ -39,11 +39,17 @@ Open Full Stack Project from University Helsinki
     │     ├── routed-anecdotes
     │     ├── ultimate-hooks
     │     └── webpack
-    └── part8
-          ├── library
-          │     ├── backend
-          │     └── frontend
-          └── practice
+    │── part8
+    │     ├── library
+    │     │     ├── backend
+    │     │     └── frontend
+    │     └── practice
+    │           ├── backend
+    │           └── frontend
+    └── part9
+          ├── courseinfo
+          ├── ts-node
+          └── Patientor
                 ├── backend
                 └── frontend
 
@@ -62,3 +68,4 @@ Open Full Stack Project from University Helsinki
 - Part6: State management with Redux
 - part7: React router, custom hooks, styling app with CSS and webpack
 - part8: GraphQL
+- part9: Typescript

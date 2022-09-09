@@ -1,0 +1,62 @@
+GET http://localhost:3001/api/patients
+
+### add a patient
+POST http://localhost:3001/api/patients
+Content-Type: application/json
+
+{
+  "name": "Rick Yang",
+  "dateOfBirth": "1990-09-09",
+  "ssn": "0920-502-233",
+  "gender": "male",
+  "occupation": "Technician"
+}
+
+### get a patient by id
+GET http://localhost:3001/api/patients/d2773336-f723-11e9-8f0b-362b9e155667
+
+### add a Hospital entry to a patient
+POST http://localhost:3001/api/patients/d2773336-f723-11e9-8f0b-362b9e155667/entries
+Content-Type: application/json
+
+{
+  "date": "2022-09-09",
+  "type": "Hospital",
+  "specialist": "MD House",
+  "diagnosisCodes": ["S62.5"],
+  "description": "Healing time appr. 2 weeks. patient doesn't remember how he got the injury.",
+  "discharge": {
+    "date": "2022-09-09",
+    "criteria": "Thumb has healed."
+  }
+}
+
+### add a OccupationalHealthcare entry to a patient
+POST http://localhost:3001/api/patients/d2773336-f723-11e9-8f0b-362b9e155667/entries
+Content-Type: application/json
+
+{
+  "date": "2022-09-09",
+  "type": "OccupationalHealthcare",
+  "specialist": "MD House",
+  "diagnosisCodes": ["Z57.1", "Z74.3", "M51.2"],
+  "description": "Patient mistakenly found himself in a nuclear plant waste site without protection gear. Very minor radiation poisoning. ",
+  "employerName": "FBI",
+  "sickLeave": {
+    "startDate": "2022-09-09",
+    "endDate": "2022-09-10"
+  }
+}
+
+### add a OccupationalHealthcare entry to a patient
+POST http://localhost:3001/api/patients/d2773336-f723-11e9-8f0b-362b9e155667/entries
+Content-Type: application/json
+
+{
+  "date": "2022-09-09",
+  "type": "HealthCheck",
+  "specialist": "MD House",
+  "diagnosisCodes": ["Z57.1", "Z74.3", "M51.2"],
+  "description": "Patient mistakenly found himself in a nuclear plant waste site without protection gear. Very minor radiation poisoning. ",
+  "healthCheckRating": 0
+}
