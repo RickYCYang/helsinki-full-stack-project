@@ -69,3 +69,14 @@ Open Full Stack Project from University Helsinki
 - part7: React router, custom hooks, styling app with CSS and webpack
 - part8: GraphQL
 - part9: Typescript
+
+### Certificates of HELSINKI
+- Full Stack
+![image](https://user-images.githubusercontent.com/54363801/194754130-25b6db15-9bc4-4f20-a618-a35d258863d7.png)
+- GraphQL
+![image](https://user-images.githubusercontent.com/54363801/194754141-d87f4a91-889a-481d-bef9-7c932dee33f3.png)
+- Typescript
+![image](https://user-images.githubusercontent.com/54363801/194754151-803201c7-0d21-4f54-aa3e-0b5608fcaec5.png)
+
+
+
