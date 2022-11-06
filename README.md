@@ -55,7 +55,7 @@ Open Full Stack Project from University Helsinki
 
 ### Deployment on server
 
-- part3: [phonebook/backend](https://helsinki-part3-phonebook.herokuapp.com/). It also contains the production build of frontend
+- part3: It has been deployed to Heroku [phonebook/backend](https://helsinki-part3-phonebook.herokuapp.com/) that contains the production build of frontend as well.
 
 ### Learning Targets
 
@@ -69,14 +69,14 @@ Open Full Stack Project from University Helsinki
 - part7: React router, custom hooks, styling app with CSS and webpack
 - part8: GraphQL
 - part9: Typescript
+- part10: React Native (Refer to [here](https://github.com/RickYCYang/rate-repository-app))
+- part11: CI/CD (Refer to [here](https://github.com/RickYCYang/2021f2e-taiwan-travel-advisor))
 
 ### Certificates of HELSINKI
+
 - Full Stack
-![image](https://user-images.githubusercontent.com/54363801/194754130-25b6db15-9bc4-4f20-a618-a35d258863d7.png)
+  ![image](https://user-images.githubusercontent.com/54363801/194754130-25b6db15-9bc4-4f20-a618-a35d258863d7.png)
 - GraphQL
-![image](https://user-images.githubusercontent.com/54363801/194754141-d87f4a91-889a-481d-bef9-7c932dee33f3.png)
+  ![image](https://user-images.githubusercontent.com/54363801/194754141-d87f4a91-889a-481d-bef9-7c932dee33f3.png)
 - Typescript
-![image](https://user-images.githubusercontent.com/54363801/194754151-803201c7-0d21-4f54-aa3e-0b5608fcaec5.png)
-
-
-
+  ![image](https://user-images.githubusercontent.com/54363801/194754151-803201c7-0d21-4f54-aa3e-0b5608fcaec5.png)
