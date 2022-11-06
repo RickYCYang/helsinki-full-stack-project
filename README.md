@@ -80,3 +80,9 @@ Open Full Stack Project from University Helsinki
   ![image](https://user-images.githubusercontent.com/54363801/194754141-d87f4a91-889a-481d-bef9-7c932dee33f3.png)
 - Typescript
   ![image](https://user-images.githubusercontent.com/54363801/194754151-803201c7-0d21-4f54-aa3e-0b5608fcaec5.png)
+- React Native
+  ![image](https://user-images.githubusercontent.com/54363801/200176755-0d14f288-63a4-4c63-b789-23d37290c598.png)
+- CI/CD
+  ![image](https://user-images.githubusercontent.com/54363801/200176796-5899fa2a-d297-4f25-87e9-4b5ffdeda97d.png)
+
+
