@@ -1,6 +1,4 @@
-# helsinki-full-stack-project
-
-Open Full Stack Project from University Helsinki
+# Helsinki University Full Stack Program
 
 [Official Website](https://fullstackopen.com/en/)
 
@@ -70,7 +68,7 @@ Open Full Stack Project from University Helsinki
 - part8: GraphQL
 - part9: Typescript
 - part10: React Native (Refer to [here](https://github.com/RickYCYang/rate-repository-app))
-- part11: CI/CD (Refer to [here](https://github.com/RickYCYang/2021f2e-taiwan-travel-advisor))
+- part11: CI/CD (Refer to [here](https://github.com/RickYCYang/full-stack-open-pokedex) and [here](https://github.com/RickYCYang/2021f2e-taiwan-travel-advisor))
 - part12: Containers (Refer to [here](https://github.com/RickYCYang/part12-containers-applications) and [here](https://github.com/RickYCYang/Chatroom))
 
 ### Certificates of HELSINKI
@@ -85,3 +83,5 @@ Open Full Stack Project from University Helsinki
   ![image](https://user-images.githubusercontent.com/54363801/200176755-0d14f288-63a4-4c63-b789-23d37290c598.png)
 - CI/CD
   ![image](https://user-images.githubusercontent.com/54363801/200176796-5899fa2a-d297-4f25-87e9-4b5ffdeda97d.png)
+- Containers
+  ![image](https://user-images.githubusercontent.com/54363801/209542395-032cd5e4-b6cd-4a24-9ad8-b42381b32c03.png)
